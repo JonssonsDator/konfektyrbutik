@@ -1,0 +1,74 @@
+/* ===== Global Reset & Base Styles ===== */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography & body */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary-text);
+  height: 100%;
+}
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+    padding: 1rem;
+    height: 100%;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form elements */
+button, input, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+:root {
+    --color-primary-bg: #FFFFFF;
+    --color-primary-text: #4B3832;
+    --color-secondary-text: #FFFFFF;
+    --color-secondary-bg: #F9D5E5; /*Used with sections*/
+    --color-alt-secondary-bg: #CFE0F5; /*Used with sections*/
+    --color-decoration: #D6F5D6;
+    --color-button-primary: #FFD93D;
+    --color-button-secondary: #E63946;
+    --color-headings-primary: #E63946;
+    --color-headings-secondary: #4B3832;
+}
