@@ -1,0 +1,130 @@
+.footer {
+  background-color: var(--color-primary-text);
+  color: var(--color-secondary-text);
+  padding: 2rem 1rem;
+  border-top: 1px solid var(--color-decoration);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.mainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nav h3 {
+    color: var(--color-button-primary);
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--color-text-primary);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+  color: var(--color-headings-primary);
+}
+
+.active {
+  font-weight: 600;
+  color: var(--color-headings-primary);
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact h3 {
+    color: var(--color-button-primary);
+}
+
+.contactGroup {
+    display: flex;
+    align-items: center;
+}
+
+.contact p {
+    padding-left: 1rem;
+    margin: 0.25rem 0;
+}
+
+.contactLink {
+  color: var(--color-secondary-text);
+  text-decoration: none;
+}
+
+.contactLink:hover,
+.contactLink:focus-visible {
+  color: var(--color-headings-primary);
+  text-decoration: underline;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.social h3 {
+    color: var(--color-button-primary);
+}
+
+.socialLink {
+    padding: 0.5rem;
+    color: var(--color-secondary-text);
+    transition: color 0.2s ease;
+}
+
+.socialLink:hover,
+.socialLink:focus-visible {
+  color: var(--color-button-secondary);
+}
+
+.socialItem {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.socialItem span {
+    font-size: 0.95rem;
+}
+
+.copy {
+  font-size: 0.875rem;
+  color: var(--color-decoration);
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Ny smak i sortimentet!",
+    "date": "2025-08-10",
+    "excerpt": "Vi har fått in en helt ny smak – blåbärsflaskor! Kom in och prova innan de tar slut.",
+    "category": "Ny Produkt",
+    "image": "/assets/news/blueberry-candy.png"
+  },
+  {
+    "id": 2,
+    "title": "Sommarens öppettider",
+    "date": "2025-07-01",
+    "excerpt": "Under sommaren har vi lite ändrade öppettider. Se våra tider här.",
+    "category": "Butiks Nyheter",
+    "image": "/assets/news/summer-opening.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Tävling: Gissa vikten på burken",
+    "date": "2025-06-15",
+    "excerpt": "Delta i vår roliga tävling där du kan vinna ett helt kilo godis!",
+    "category": "Tävling",
+    "image": "/assets/news/candy-jar.jpg"
+  }
+]

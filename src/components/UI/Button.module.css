@@ -1,0 +1,41 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.primary {
+    background: var(--color-button-primary);
+    color: var(--color-primary-text);
+}
+
+.primary:hover,
+.primary:focus-visible {
+    /*background: var(--color-button-primary-hover);  kan definiera en lite mörkare ton */
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.secondary {
+    background: var(--color-button-secondary);
+    color: var(--color-secondary-text);
+}
+
+.secondary:hover,
+.secondary:focus-visible {
+    /*background: var(--color-button-secondary-hover);  lite mörkare ton */
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.button:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+}

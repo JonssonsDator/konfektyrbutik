@@ -1,0 +1,7 @@
+.section {
+    background: var(--color-alt-secondary-bg);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    margin: 3rem 0;
+}

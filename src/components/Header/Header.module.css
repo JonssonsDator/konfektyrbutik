@@ -1,0 +1,99 @@
+.header {
+    background-color: var(--color-primary-bg);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoLink {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-headings-primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoLink:hover,
+.logoLink:focus-visible {
+    color: var(--color-headings-secondary);
+}
+
+.navDesktop {
+    display: flex;
+    gap: 2rem;
+}
+
+.navMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    border-top: 1px solid var(--color-decoration);
+    overflow: hidden;
+
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navMobile.open {
+    padding: 1rem;
+    max-height: 500px;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navLink {
+    color: var(--color-primary-text);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    transition: color 0.2s ease;
+}
+
+.navLink:hover,
+.navLink:focus-visible {
+    color: var(--color-headings-primary);
+}
+
+.active {
+    color: var(--color-headings-primary);
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-headings-primary);
+}
+
+.menuButton {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .navDesktop {
+        display: none;
+    }
+    .menuButton {
+        display: block;
+    }
+}

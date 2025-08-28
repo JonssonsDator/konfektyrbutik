@@ -1,0 +1,14 @@
+.selection {
+    margin-bottom: 2rem;
+}
+
+.heading {
+    color: var(--color-headings-primary);
+    margin-bottom: 1rem; 
+    font-size: 2rem;
+}
+
+.text {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}

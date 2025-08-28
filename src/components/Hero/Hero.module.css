@@ -1,0 +1,29 @@
+.hero {
+    background: linear-gradient(135deg, var(--color-secondary-bg) 0%, var(--color-alt-secondary-bg) 100%);
+    text-align: center;
+    padding: 4rem 1rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: var(--color-headings-primary);
+    margin-bottom: 1rem;
+}
+
+.title span {
+    color: var(--color-headings-secondary);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--color-primary-text);
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -68,7 +68,10 @@ button {
     --color-alt-secondary-bg: #CFE0F5; /*Used with sections*/
     --color-decoration: #D6F5D6;
     --color-button-primary: #FFD93D;
+    --color-button-primary-hover: #e6c02d;
     --color-button-secondary: #E63946;
+    --color-button-secondary-hover: #c5313b;
     --color-headings-primary: #E63946;
     --color-headings-secondary: #4B3832;
+    --color-accent: #f39c12;
 }

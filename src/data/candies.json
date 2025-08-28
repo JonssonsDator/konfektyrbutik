@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Sura Colanappar",
+    "description": "Klassiska sega nappar med frisk colasmak och en sur twist.",
+    "price": 19.90,
+    "image": "/assets/colanappar.png"
+  },
+  {
+    "id": 2,
+    "name": "Romerska bågar",
+    "description": "Len mjölkchoklad blandad med härlig apelsin.",
+    "price": 24.50,
+    "image": "/assets/romerska-bagar.png"
+  },
+  {
+    "id": 3,
+    "name": "Hallonlakrits Skallar",
+    "description": "Favoriten för alla lakritsälskare, med söt hallonfyllning.",
+    "price": 22.00,
+    "image": "/assets/hallon-lakritsskallar.png"
+  },
+  {
+    "id": 4,
+    "name": "Geléhallon",
+    "description": "Mjuka och fruktiga geléhallon doppade i socker.",
+    "price": 17.50,
+    "image": "/assets/gelehallon.png"
+  }
+]

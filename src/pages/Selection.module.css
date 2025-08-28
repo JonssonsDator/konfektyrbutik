@@ -1,0 +1,16 @@
+.selection {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  color: var(--color-headings-primary);
+  margin-bottom: 0.5rem;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  color: var(--color-primary-text);
+  margin-bottom: 2rem;
+}

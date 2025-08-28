@@ -1,0 +1,45 @@
+.about {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2.1rem;
+  text-align: center;
+  color: var(--color-headings-primary);
+  margin-bottom: 2rem;
+}
+
+.sectionTop {
+    background: var(--color-secondary-bg);
+    padding: 3rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.sectionTop h2 {
+    color: var(--color-headings-primary);
+    margin-bottom: 1rem;
+}
+
+.sectionTop p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sectionBottom {
+    background: var(--color-alt-secondary-bg);
+    padding: 3rem;
+    border-radius: 20px;
+    margin: 3rem 0;
+}
+
+.sectionBottom h2 {
+  font-size: 1.5rem;
+  color: var(--color-headings-primary);
+  text-align: center;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,9 @@
+.cta {
+    margin-bottom: 2rem;
+}
+
+.heading {
+    color: var(--color-headings-primary);
+    margin-bottom: 1rem; 
+    font-size: 2rem;
+}
