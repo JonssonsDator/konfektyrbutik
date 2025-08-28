@@ -19,7 +19,7 @@ const Contact = () => {
                 <MapPin size={20} />
                 <div>
                     <h3>Adress</h3>
-                    <p>Godisgatan 12 <br/> 380 30, Mönsterås</p>
+                    <p>Sjötorgsvägen 8 <br/> 383 30, Mönsterås</p>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ const Contact = () => {
                 <Mail size={20} />
                 <div>
                     <h3>E-post</h3>
-                    <p>info@lokalgodis.se</p>
+                    <p>info@monsteraskonfektyr.se</p>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
                 <Clock size={20} />
                 <div>
                     <h3>Öppettider</h3>
-                    <p>Mån–Fre 10–18<br/> Lör 10–14 <br/> Sön Stängt</p>
+                    <p>Onsd 10–18<br/> Lör 10–14 <br/> Sönd - Tisd, Fred Stängt</p>
                 </div>
             </div>
         </section>
