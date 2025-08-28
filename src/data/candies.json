@@ -1,30 +1,30 @@
 [
   {
     "id": 1,
-    "name": "Sura Colanappar",
-    "description": "Klassiska sega nappar med frisk colasmak och en sur twist.",
+    "name": "Mönsterås Konfekt",
+    "description": "Vårt egna klassiska konfekt.",
     "price": 19.90,
-    "image": "/assets/colanappar.png"
+    "image": "/assets/monsteras-konfekt.png"
   },
   {
     "id": 2,
-    "name": "Romerska bågar",
-    "description": "Len mjölkchoklad blandad med härlig apelsin.",
+    "name": "Chokladdrömmar",
+    "description": "Våra himelska chokladdrömmar.",
     "price": 24.50,
-    "image": "/assets/romerska-bagar.png"
+    "image": "/assets/chokladdrommar.png"
   },
   {
     "id": 3,
-    "name": "Hallonlakrits Skallar",
-    "description": "Favoriten för alla lakritsälskare, med söt hallonfyllning.",
+    "name": "Chokladdragerad Mandel",
+    "description": "Favoriten för alla mandelälskare, täckta med söt choklad.",
     "price": 22.00,
-    "image": "/assets/hallon-lakritsskallar.png"
+    "image": "/assets/chokladdragerad-mandel.png"
   },
   {
     "id": 4,
-    "name": "Geléhallon",
-    "description": "Mjuka och fruktiga geléhallon doppade i socker.",
+    "name": "Teaterkonfekt",
+    "description": "Klassisk teaterkonfekt.",
     "price": 17.50,
-    "image": "/assets/gelehallon.png"
+    "image": "/assets/teaterkonfekt.png"
   }
 ]
