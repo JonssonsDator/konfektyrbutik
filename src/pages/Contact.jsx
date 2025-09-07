@@ -19,7 +19,7 @@ const Contact = () => {
                 <MapPin size={20} />
                 <div>
                     <h3>Adress</h3>
-                    <p>Sjötorgsvägen 8 <br/> 383 30, Mönsterås</p>
+                    <p>Konfektyrgatan 8 <br/> 123 45, Konfektyr</p>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ const Contact = () => {
                 <Mail size={20} />
                 <div>
                     <h3>E-post</h3>
-                    <p>info@monsteraskonfektyr.se</p>
+                    <p>info@godalivetskonfektyr.se</p>
                 </div>
             </div>
 

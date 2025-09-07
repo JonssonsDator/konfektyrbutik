@@ -7,7 +7,7 @@ const Hero = () => {
         <section className={styles.hero}>
             <div className={styles.container}>
                 <h1 className={styles.title}>
-                    Mönsteråsvikens Konfektyr - <span>Din lokala konfektyr butik</span>
+                    Godalivets Konfektyr - <span>Din lokala konfektyr butik</span>
                 </h1>
                 <p className={styles.subtitle}>
                     Upptäck ett färgstarkt sortiment av handgjorda godisar och delikatesser.

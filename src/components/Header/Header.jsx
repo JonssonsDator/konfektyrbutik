@@ -20,7 +20,7 @@ const Header = () => {
                 <div className={styles.logo}>
                 <NavLink to="/" className={styles.logoLink}>
                     <Candy size={28} aria-hidden="true" />
-                    Mönsteråsvikens Konfektyr
+                    Godalivets Konfektyr
                 </NavLink>
                 </div>
 

@@ -16,9 +16,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'Instagram', url: 'https://www.instagram.com/', username: 'monsteraskonfektyr', icon: <SiInstagram size={28} /> },
-    { name: 'Facebook', url: 'https://www.facebook.com/groups/849704003566165/', username: 'Mönsteråsvikens Konfektyr', icon: <SiFacebook size={28} /> },
-    { name: 'X', url: 'https://x.com/', username: 'monsteraskonfektyr', icon: <RiTwitterXFill size={28} /> }
+    { name: 'Instagram', url: 'https://www.instagram.com/', username: 'godalivetskonfektyr', icon: <SiInstagram size={28} /> },
+    { name: 'Facebook', url: 'https://www.facebook.com/', username: 'godalivetskonfektyr', icon: <SiFacebook size={28} /> },
+    { name: 'X', url: 'https://x.com/', username: 'godalivetskonfektyr', icon: <RiTwitterXFill size={28} /> }
   ];
 
   return (
@@ -44,13 +44,13 @@ const Footer = () => {
                 <h3>Kontakt Information</h3>
                 <div className={styles.contactGroup}>
                     <MapPin size={18} />
-                    <p>Sjötorgsvägen 8, 38330, Mönsterås</p>
+                    <p>konfektyrvägen 8, 12345, Konfekt</p>
                 </div>
                 <div className={styles.contactGroup}>
                     <Mail size={18} />
                     <p>
-                        <a href="mailto:info@monsterasvikenskonfektyr.se" className={styles.contactLink}>
-                        info@monsterasvikenskonfektyr.se
+                        <a href="mailto:info@godalivetskonfektyr.se" className={styles.contactLink}>
+                        info@godalivetskonfektyr.se
                         </a>
                     </p>
                 </div>
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
 
         <div className={styles.copy}>
-          &copy; {new Date().getFullYear()} Mönsteråsvikens Konfektyr. All rights reserved.
+          &copy; {new Date().getFullYear()} Godalivets Konfektyr. All rights reserved.
         </div>
       </div>
     </footer>
