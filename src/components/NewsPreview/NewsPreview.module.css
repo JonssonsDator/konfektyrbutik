@@ -1,5 +1,8 @@
 .news {
     margin-bottom: 2rem;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    border-radius: 12px;
 }
 
 .heading {
@@ -11,4 +14,16 @@
 .text {
     margin-bottom: 2rem;
     font-size: 1.1rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    .heading {
+        font-size: 1.6rem;
+    }
+    .text {
+        font-size: 1rem;
+    }
 }

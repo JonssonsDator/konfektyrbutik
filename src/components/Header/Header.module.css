@@ -8,6 +8,7 @@
 
 .container {
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
@@ -45,28 +46,29 @@
 .navMobile {
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
     border-top: 1px solid var(--color-decoration);
     overflow: hidden;
 
     max-height: 0;
     opacity: 0;
     transform: translateY(-10px);
-    transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
 }
 
 .navMobile.open {
     padding: 1rem;
-    max-height: 500px;
+    max-height: none;
     opacity: 1;
     transform: translateY(0);
+    pointer-events: auto;
 }
 
 .navLink {
     color: var(--color-primary-text);
     font-weight: 500;
     text-decoration: none;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     transition: color 0.2s ease;
 }
 

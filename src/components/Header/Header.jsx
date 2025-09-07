@@ -45,7 +45,7 @@ const Header = () => {
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     aria-label="Toggle Menu"
                     aria-expanded={isMenuOpen}
-                    aira-controls="mobile-nav"
+                    aria-controls="mobile-nav"
                 >
                     {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
                 </button>     

@@ -1,9 +1,16 @@
 .cta {
-    margin-bottom: 2rem;
+    margin-top: 3rem;
 }
 
 .heading {
     color: var(--color-headings-primary);
-    margin-bottom: 1rem; 
+    margin-bottom: 1.5rem; 
     font-size: 2rem;
+    line-height: 1.3;
+}
+
+@media (max-width: 600px) {
+    .heading {
+        font-size: 1.6rem;
+    }
 }
